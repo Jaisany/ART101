@@ -30,3 +30,18 @@ $("#needy-button").click(function () {
     
 
 });
+
+function askNumber(whatNumber) {
+    let userNumber = prompt("How many years? (Hint: Really long time)");
+
+    if (userNumber == whatNumber) {
+        $("#output2").html("You got it! Impressive!");
+    }
+    else {
+        $("#output2").html("Nope! Nice try bucko!");
+    }
+}
+
+$("#good-button").click(function () {
+    askNumber(500);
+});

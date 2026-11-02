@@ -82,3 +82,10 @@ img {
     background-color: rgba(111, 112, 161, 0.5);;
     padding: 7px;
 }
+
+#good-button {
+    max-width: 300px;
+    margin: 0 auto 0 auto;
+    box-sizing: border-box;
+    background-color: rgba(111, 112, 161, 0.5);;
+    padding: 7px;}
